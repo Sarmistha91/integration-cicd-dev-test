@@ -9,6 +9,6 @@ on:
       types:
         - opened
 jobs:
-  Call_Integration_Reusable_workflow:
+  Integration_Deployment_workflow:
     uses: project/apigee-cicd/.github/workflows/Integration-CICD.yml@main
     secrets: inherit
